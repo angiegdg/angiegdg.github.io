@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Compiladores e interpretes</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+					<!-- Header -->
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>Angie D.</strong> <span>Compiladores e interpretes</span></a>
+					
+					</header>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>Advanced CPU Designs</h1>
+							</header>
+							<div class="content">
+								<p align="justify">Existen procesadores con circuitos adicionales y elegantes que permiten ejecutar instrucciones precisas para encriptación y juegos, por dar un ejemplo.</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section>
+										<img src="images/cache.jpeg" alt="" data-position="center center" />
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Chaché</h3>
+											</header>
+											<p align="justify">Las altas velocidades de reloj y los conjuntos de instrucciones complejas conducen a un nuevo problema, obtener datos dentro y fuera de la CPU lo suficientemente rápido, en este caso el cuello de botella es la memoria RAM.
+											</p>
+
+											<p align="justify">Para ello alojamos una porción de memoria en el microprocesador, a esta memoria la llamamos caché. Como este es muy pequeño hablamos de una memoria de kilobytes quizá megabytes.</p>
+
+											<p align="justify">Manipular datos desde la caché presenta un interesante problema, la copia de datos de la caché ahora es diferente a la versión real almacenada en RAM, este desajuste debe registrarse, de modo que en algún momento pueda sincronizarse. Para este propósito la caché tiene un indicador especial para cada bloque de memoria llamado DIRTY BIT.</p>
+										</div>
+									</div>
+								</section>
+								<section>
+										<img src="images/apertura.jpg" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Paralelizar las tareas</h3>
+											</header>
+											<p align="justify">Otro méotodo para optimizar un CPU es paralelizar las tareas, pero este trae otros problemas y uno es dependencia entre instrucciones.</p>
+
+											<p align="justify">Los procesadores actuales pueden reordenar dinámicamente las instrucciones con dependencias para minimizar las paradas y mantener las tuberias en movimiento, esto se conoce como ejecución fuera de orden.</p>
+
+											<p align="justify">Otro peligro son las instrucciones de salto condicional. Para este caso adivinan la ruta y comienza a ejecutar instrucciones básicas basadas en esa suposición, a esta técnica se le llama ejecución especulativa. Para minimizar estos casos se han desarrollado sofisticados procesos para adivinar en que dirección irán las ramas, llamada predicción de ramas. El lugar de tratarse de un 50/50, los procesadores actuales pueden adivinar con más de un 90% de precisión.</p>	
+										</div>
+									</div>
+								</section>
+								<section>
+										<img src="images/intel.jpg" alt="" data-position="25% 25%" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Procesadores Multi-Core</h3>
+											</header>
+											<p align="justify">Procesadores multi-core, procesadores de 2 nucleos, 4 nucleos, entre otros... <br>
+											Al encontrarse dentro de un mismo chip, pueden compartir recursos como la memoria caché, lo que permite que los nucleos trabajen en conjunto en computos compartidos.</p>
+
+										</div>
+									</div>
+								</section>
+							</section>
+				
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://github.com/angiegdg/angiegdg.github.io" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								
+							</ul>
+							<ul class="copyright">
+								<li>&copy; UNET</li><li>Design: Angie Delgado</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
